@@ -1,0 +1,69 @@
+.content{
+    width:100%;
+    height:240px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    padding-top:30px;
+    cursor: pointer;
+}
+.content>.left{
+    width:260px;
+    height:180px;
+}
+.content>.left img{
+    width:100%;
+    height:100%;
+}
+.content .content1{
+
+
+    margin-left:310px;
+}
+.title{
+    font-size: 18px;
+    color:#6ab935;
+}
+.btn{
+    display: block;
+    border:1px solid #ddd;
+    width:68px;
+    height:25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+}
+.btn:hover{
+    color:#fff;
+    background: #6ab935;
+}
+.content1 p{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.yeshu{
+    overflow: hidden;
+}
+.yeshu>ul{
+    text-align: center;
+    margin-top:45px;
+}
+.yeshu li{
+    display: inline-block;
+    width:50px;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-right:none;
+    cursor: pointer;
+}
+.yeshu li:last-child{
+    border: 1px solid #ddd;
+}
+
+.num.active,.num:hover{
+    background: #6ab935;
+    color: #ffffff;
+}

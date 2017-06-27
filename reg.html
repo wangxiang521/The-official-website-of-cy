@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/reg.css">
+</head>
+<body>
+<!--头部-->
+<div class="body-nav">
+    <a href="#" class="logo"></a>
+    <ul class="nav-list">
+        <li >
+            <a href="index.html">首页</a>
+        </li>
+        <li>
+            <a href="about.html">了解承邑</a></li>
+        <li>
+            <a href="pro.html">产品中心</a>
+        </li>
+        <li>
+            <a href="news.html">新闻资讯</a>
+        </li>
+    </ul>
+    <div class="right nav-right">
+        <a href="gwc.html" class="gwc"></a>
+        <a href="login.html" class="dl">登陆</a>
+        <a href="reg.html" class="zc">注册</a>
+    </div>
+</div>
+
+
+<div class="main">
+    <div class="model">
+        <div class="user"><h2>用户注册</h2></div>
+        <div class="u-form">
+            <form class="regForm">
+                <div class="ipt">
+                    <label for="uname">用户名</label>
+                    <input type="text" id="uname" autofocus placeholder="请输入6-12位英文或数字" required pattern="^[a-zA-Z0-9]{6,12}$" >
+                    <span class="name-icon">*</span>
+                </div>
+                <div class="ipt">
+                    <label for="psd">密码</label>
+                    <input type="password" id="psd" placeholder="请输入6-12位英文或数字" required pattern="^[a-zA-Z0-9]{6,12}$">
+                    <span class="psd-icon icon">*</span>
+                </div>
+                <div class="ipt">
+                    <label for="rpsd">确认密码</label>
+                    <input type="password" id="rpsd" placeholder="请再次输入密码" required pattern="^[a-zA-Z0-9]{6,12}$">
+                    <span class="rpsd-icon icon">*</span>
+                </div>
+                <div class="ipt">
+                    <label for="phone">手机</label>
+                    <input type="text" id="phone" placeholder="请输入注册的手机号" required pattern="^[0-9]{11}$">
+                    <span class="ph-icon icon">*</span>
+                </div>
+                <div class="ipt">
+                    <label for="dre">地址</label>
+                    <input type="text" id="dre" placeholder="请输入收货地址" required>
+                    <span class="dre-icon icon">*</span>
+                </div>
+
+                <div class="ipt reg">
+                    <input type="submit" value="注册">
+                    <a href="">已有账号？请登录</a>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--脚步-->
+<footer>
+    <h1>400-6688-999</h1>
+    <ul class="footer-nav">
+        <li >
+            <a href="">联系我们</a>
+        </li>
+        <li>
+            <a href="">加入我们</a>
+        </li>
+        <li>
+            <a href="">新闻热点</a>
+        </li>
+        <li>
+            <a href="">产品中心</a>
+        </li>
+        <li>
+            <a href="">关于承邑</a>
+        </li>
+        <li>
+            <a href="">网站导航</a></li>
+    </ul>
+    <div>
+        <span>东莞承邑电器科技有限公司</span>
+        <span class="dizhi"> <b></b>东莞市经济开发区下沙街道银海街760号</span>
+    </div>
+    <div class="beian">
+        <span>Copyright © 2017 Cheng Yi  Co.,Ltd</span>
+        <span class="ga"> <b></b>粤公网安备 3555558888号</span>
+    </div>
+    <div class="heng1"></div>
+    <div class="f-img">
+        <div>
+            <a href="">
+                <img src="img/f-img1.png" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="img/f-img2.png" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="img/f-img3.png" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="img/f-img4.png" alt="">
+            </a>
+        </div>
+
+    </div>
+</footer>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/reg.js"></script>
+</body>
+</html>

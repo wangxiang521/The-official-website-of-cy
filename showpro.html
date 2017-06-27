@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/showpro.css">
+    <style type="text/css">
+        /* color */
+        a:link,a:visited{color:#575757;text-decoration:none;}
+        a:hover{color:#ef4165;text-decoration:none;}
+        a:active{color:#1d7400;}
+
+        /* clearfix */
+        .clearfix:after{ visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0;}
+        *html .clearfix{ zoom:1;}
+
+
+        .preview{
+            width:402px;
+            height:465px;
+            border: 1px solid #ddd;
+
+        }
+        /* smallImg */
+        .smallImg{position:relative; height:52px; margin-top:1px; background-color:#F1F0F0; padding:6px 5px; width:400px; overflow:hidden;float:left;}
+        .scrollbutton{width:14px; height:50px; overflow:hidden; position:relative; float:left; cursor:pointer; }
+        .scrollbutton.smallImgUp , .scrollbutton.smallImgUp.disabled{background:url(img/d_08.png) no-repeat;}
+        .scrollbutton.smallImgDown , .scrollbutton.smallImgDown.disabled{background:url(img/d_09.png) no-repeat; margin-left:375px; margin-top:-50px;}
+
+        #imageMenu {height:50px; width:360px; overflow:hidden; margin-left:0; float:left;}
+        #imageMenu li {height:50px; width:60px; overflow:hidden; float:left; text-align:center;}
+        #imageMenu li img{width:50px; height:50px;cursor:pointer;}
+        #imageMenu li#onlickImg img, #imageMenu li:hover img{ width:44px; height:44px; border:3px solid #959595;}
+        /* bigImg */
+        .bigImg{position:relative; float:left; width:400px; height:400px; overflow:hidden;}
+        .bigImg #midimg{width:400px; height:400px;}
+        .bigImg #winSelector{width:235px; height:210px;}
+        #winSelector{position:absolute; cursor:crosshair; filter:alpha(opacity=15); -moz-opacity:0.15; opacity:0.15; background-color:#000; border:1px solid #fff;}
+        /* bigView */
+        #bigView{position:absolute;border: 1px solid #959595; overflow: hidden; z-index:999;}
+        #bigView img{position:absolute;}
+
+    </style>
+</head>
+<body>
+<div class="nav-nav">
+    <div class="body-nav">
+        <a href="#" class="logo"></a>
+        <ul class="nav-list">
+            <li >
+                <a href="">首页</a>
+            </li>
+            <li >
+                <a href="">了解承邑</a></li>
+            <li>
+                <a href="">产品中心</a>
+            </li>
+            <li>
+                <a href="">新闻资讯</a>
+            </li>
+        </ul>
+        <div class="right nav-right">
+            <a href="gwc.html" class="gwc"></a>
+            <a href="login.html" class="dl">登陆</a>
+            <a href="reg.html" class="zc">注册</a>
+        </div>
+    </div>
+</div>
+<div class="bread-nav">
+    <div>
+        <span>您当前的位置：</span>
+        <a href="index.html">首页&gt</a>
+        <a href="">商品中心&gt</a>
+        <a href="">萃取机</a>
+    </div>
+</div>
+<div class="pro-container">
+    <div class="pro-sp">
+        <div class="pro-img left">
+            <div class="preview">
+
+                <div id="vertical" class="bigImg">
+                    <img src="mid/05.jpg" width="400" height="400" alt="" id="midimg" />
+                    <div style="display:none;" id="winSelector"></div>
+                </div><!--bigImg end-->
+
+                <div class="smallImg">
+                    <div class="scrollbutton smallImgUp disabled"></div>
+                    <div id="imageMenu">
+                        <ul>
+                            <li id="onlickImg"><img src="small/05.jpg" width="68" height="68" alt="洋妞"/></li>
+                            <li><img src="small/02.jpg" width="68" height="68" alt="洋妞"/></li>
+                            <li><img src="small/03.jpg" width="68" height="68" alt="洋妞"/></li>
+                            <li><img src="small/04.jpg" width="68" height="68" alt="洋妞"/></li>
+                            <li><img src="small/01.jpg" width="68" height="68" alt="洋妞"/></li>
+                            <li><img src="small/06.jpg" width="68" height="68" alt="洋妞"/></li>
+                            <li><img src="small/04.jpg" width="68" height="68" alt="洋妞"/></li>
+                        </ul>
+                    </div>
+                    <div class="scrollbutton smallImgDown"></div>
+                </div><!--smallImg end-->
+
+                <div id="bigView" style="display:none;"><img width="800" height="800" alt="" src="" /></div>
+
+            </div>
+            <div class="list-footer">
+                 <b class="sc"></b>
+                <span>未收藏</span>
+            </div>
+        </div>
+
+        <div class="right pro-txt">
+            <h1>健康美食营养生活  萃取机</h1>
+            <span class="green">智能控制</span><span class="green">超级节能</span>
+            <div class="price">
+                <span>￥</span><b>3980</b>
+            </div>
+            <div class="guige">
+                <span class="left">规格</span>
+                <div class="left active">3B-D79SG</div>
+                <div class="left">5D-D79SG</div>
+            </div>
+            <div class="yunfei">
+                <span class="left">运费</span>
+                <div class="left active">包邮</div>
+            </div>
+            <div class="num">
+                <span class="left">数量</span>
+                <div class="left minus">-</div>
+                <span class="left num-num">1 </span>
+                <div class="left add">+</div>
+                <p class="left  ">库存256</p>
+            </div>
+            <div class="btn">
+                <div class="left">加入购物车</div>
+                <div class="left">立即购买</div>
+            </div>
+        </div>
+    </div>
+    <div class="pro-ms">
+        <div class="pro-header">
+            <div class="active">描述</div><div>评论</div><div>规格</div>
+        </div>
+        <div class="pro-pro active">
+            <div class="sp-img">
+                <img src="img/sp-1.png" alt="">
+            </div>
+            <div class="sp-txt">
+                <ul>
+                    <li>
+                        <span class="s1">室内机产品型号&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>KFR-26G/WCBD3@</span>
+                    </li>
+                    <li>
+                        <span class="s1">室内机产品销售码</span>
+                        <span>31022011004278</span>
+                    </li>
+                    <li>
+                        <span class="s1">室外机产品型号&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>KFR-26W-A05</span>
+                    </li>
+                    <li>
+                        <span class="s1">室外机产品销售码</span>
+                        <span>31022016001002</span>
+                    </li>
+                    <li>
+                        <span class="s2">空调类型</span>
+                        <span>壁挂式/挂式</span>
+                    </li>
+                    <li>
+                        <span class="s2">冷暖类型</span>
+                        <span>冷暖</span>
+                    </li>
+                    <li>
+                        <span class="s2">空调技术</span>
+                        <span>定速</span>
+                    </li>
+                    <li>
+                        <span class="s2">能效等级</span>
+                        <span>三级</span>
+                    </li>
+                    <li>
+                        <span>室外机外形尺寸(宽)(单位：mm)</span>
+                        <span>728</span>
+                    </li>
+                    <li>
+                        <span>室外机外形尺寸(宽/含阀体)(单位：mm)</span>
+                        <span>785</span>
+                    </li>
+                    <li>
+                        <span>室外机外形尺寸(高)(单位：mm)</span>
+                        <span>555</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="pro-pl">
+            <div class="pro-pl-header">
+                <div class="zt">
+                    <span >总体评分</span>
+                    <b></b><b></b><b></b><b></b><b></b>
+                </div>
+                <p>以下评价皆来自美的官方直营渠道的真实用户评价</p>
+            </div>
+            <div class="content">
+                <div class="user">
+                    <span class="left">物美价廉</span>
+                    <div class="right">
+                        <div>汤***新</div>
+                        <div>2017年3月31日 16:19</div>
+                    </div>
+                </div>
+                <p class="sj">
+                    [官方回复]您说好才是真的好呢！您的满意，是我们最大的动力~宝贝时尚外观设计，阿里小智 ，静音智能， 机身一体 ，VLED显示，相信我们的宝贝能让您的夏天不再炎热，冬天不再寒冷，家里满满都是爱~喜欢的宝贝记得跟大家分享哦~~
+                </p>
+                <div class="head">
+                    <b></b>
+                    ( <span>1</span> )
+                </div>
+            </div>
+            <div class="content">
+                <div class="user">
+                    <span class="left">物美价廉</span>
+                    <div class="right">
+                        <div>汤***新</div>
+                        <div>2017年3月31日 16:19</div>
+                    </div>
+                </div>
+                <p class="sj">
+                    [官方回复]您说好才是真的好呢！您的满意，是我们最大的动力~宝贝时尚外观设计，阿里小智 ，静音智能， 机身一体 ，VLED显示，相信我们的宝贝能让您的夏天不再炎热，冬天不再寒冷，家里满满都是爱~喜欢的宝贝记得跟大家分享哦~~
+                </p>
+                <div class="head">
+                    <b></b>
+                    ( <span>1</span> )
+                </div>
+            </div>
+            <div class="content">
+                <div class="user">
+                    <span class="left">物美价廉</span>
+                    <div class="right">
+                        <div>汤***新</div>
+                        <div>2017年3月31日 16:19</div>
+                    </div>
+                </div>
+                <p class="sj">
+                    [官方回复]您说好才是真的好呢！您的满意，是我们最大的动力~宝贝时尚外观设计，阿里小智 ，静音智能， 机身一体 ，VLED显示，相信我们的宝贝能让您的夏天不再炎热，冬天不再寒冷，家里满满都是爱~喜欢的宝贝记得跟大家分享哦~~
+                </p>
+                <div class="head">
+                    <b></b>
+                    ( <span>1</span> )
+                </div>
+            </div>
+            <div class="content">
+                <div class="user">
+                    <span class="left">物美价廉</span>
+                    <div class="right">
+                        <div>汤***新</div>
+                        <div>2017年3月31日 16:19</div>
+                    </div>
+                </div>
+                <p class="sj">
+                    [官方回复]您说好才是真的好呢！您的满意，是我们最大的动力~宝贝时尚外观设计，阿里小智 ，静音智能， 机身一体 ，VLED显示，相信我们的宝贝能让您的夏天不再炎热，冬天不再寒冷，家里满满都是爱~喜欢的宝贝记得跟大家分享哦~~
+                </p>
+                <div class="head">
+                    <b></b>
+                    ( <span>1</span> )
+                </div>
+            </div>
+        </div>
+        <div class="pro-gg">
+            <div class="cs">
+                <div class="left">
+                    基本类型
+                </div>
+                <ul class="left">
+                    <li>品牌</li>
+                    <li>颜色</li>
+                    <li>产品型号</li>
+                    <li>电源电压（V）</li>
+                    <li>额定功率</li>
+                </ul>
+                <ul class="left">
+                    <li>Midea/美的</li>
+                    <li>白色</li>
+                    <li>MG70V30WX</li>
+                    <li>220</li>
+                    <li>1900</li>
+                </ul>
+            </div>
+            <div class="detial">
+                <div class="left">
+                    详细信息
+                </div>
+                <ul class="left">
+                    <li>控制方式</li>
+                    <li>能效等级</li>
+                    <li>显示方式</li>
+                    <li>产品类型</li>
+                    <li>使用方式</li>
+                    <li>容量（kg）</li>
+                    <li>脱水容量（kg）</li>
+                    <li>洗涤功率（W）</li>
+                    <li>水位选择</li>
+                    <li>洗衣程序</li>
+                    <li>电机类型</li>
+                    <li>排水方式</li>
+                    <li>开合方式</li>
+                    <li>箱体材质</li>
+                    <li>内桶材质 </li>
+                </ul>
+                <ul class="left">
+                    <li>电脑控制</li>
+                    <li>一级</li>
+                    <li>LED数码屏显示</li>
+                    <li>滚筒洗衣机</li>
+                    <li>全自动</li>
+                    <li>7.0</li>
+                    <li>7.0</li>
+                    <li>90</li>
+                    <li>支持</li>
+                    <li>浸泡、大物、羊毛、节能、
+                        羽绒、混合洗、脱水、快洗15‘
+                    </li>
+                    <li>普通电机</li>
+                    <li>下排水</li>
+                    <li>前开式</li>
+                    <li>钢板</li>
+                    <li>钢板</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <h1>400-6688-999</h1>
+    <ul class="footer-nav">
+        <li >
+            <a href="">联系我们</a>
+        </li>
+        <li>
+            <a href="">加入我们</a>
+        </li>
+        <li>
+            <a href="">新闻热点</a>
+        </li>
+        <li>
+            <a href="">产品中心</a>
+        </li>
+        <li>
+            <a href="">关于承邑</a>
+        </li>
+        <li>
+            <a href="">网站导航</a></li>
+    </ul>
+    <div>
+        <span>东莞承邑电器科技有限公司</span>
+        <span class="dizhi"> <b></b>东莞市经济开发区下沙街道银海街760号</span>
+    </div>
+    <div class="beian">
+        <span>Copyright © 2017 Cheng Yi  Co.,Ltd</span>
+        <span class="ga"> <b></b>粤公网安备 3555558888号</span>
+    </div>
+    <div class="heng1"></div>
+    <div class="f-img">
+        <div>
+            <a href="">
+                <img src="img/f-img1.png" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="img/f-img2.png" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="img/f-img3.png" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="img/f-img4.png" alt="">
+            </a>
+        </div>
+
+    </div>
+</footer>
+</body>
+<script src="js/jquery-1.11.3.js"></script>
+<script>
+    $('.guige>div').on('click',function(){
+        $(this).addClass('active').siblings().removeClass('active');
+        if($(this).html()=='3B-D79SG'){
+            $('.price b').html(3980)
+        }else{
+            $('.price b').html(3999)
+        }
+    })
+    $('.add').on('click',function(){
+        var val= parseInt($('.num-num').html())
+        val=val+1
+        $('.num-num').html(val)
+    })
+    $('.minus').on('click',function(){
+        var val= parseInt($('.num-num').html())
+        val=val-1
+        $('.num-num').html(val)
+
+    })
+    $('.pro-header>div').on('click',function(){
+        $(this).addClass('active').siblings().removeClass('active')
+        if(this.innerHTML=='描述'){
+            $('.pro-pro').addClass('active').siblings().removeClass('active')
+        }
+        if(this.innerHTML=='评论'){
+            $('.pro-pl').addClass('active').siblings().removeClass('active')
+        }
+        if(this.innerHTML=='规格'){
+            $('.pro-gg').addClass('active').siblings().removeClass('active')
+        }
+    })
+    $('.list-footer b').on('click',function(){
+        $(this).parent().addClass('active')
+        $(this).siblings().html('已收藏')
+    })
+</script>
+<script src="js/jquery.1.4.2-min.js"></script>
+<script src="js/123.js"></script>
+</html>

@@ -1,0 +1,23 @@
+
+.about-container{
+    width:1200px;
+    margin:auto;
+    padding:50px;
+    padding-left:50px;
+    padding-right: 50px;
+}
+
+.container-content>div{
+    margin-bottom: 30px;
+}
+.container-content .content{
+    margin-bottom: 50px;
+    margin-top:50px;
+}
+.title{
+    color:#6ab935;
+    font-size: 20px;
+}
+.content p{
+    color:#898989
+}

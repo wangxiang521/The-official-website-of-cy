@@ -1,0 +1,223 @@
+.user-name{
+    color:#6ab935;
+}
+.dl,.zc{
+    display: none;
+}
+.nav-right{
+    padding-left:55px;
+}
+.bread-nav{
+     margin-top:75px;
+     border:1px solid #ddd;
+ }
+.bread-nav a{
+    color:#898989;
+}
+.bread-nav>div{
+    width:1200px;
+    margin:auto;
+    height:40px;
+    line-height: 40px;
+    margin-top:2px;
+}
+.gwc-container{
+    width:1100px;
+    margin:auto;
+    margin-top:50px;
+    background: #f7f7f7;
+    padding:40px;
+}
+.title b{
+    float:left;
+    width:50px;
+    height:47px;
+    background: url(../img/gwc1.png) no-repeat;
+    margin-top:7px;
+}
+.title {
+    height:61px;
+    font-size: 24px;
+    line-height: 61px;
+}
+.addc{
+    display: inline-block;
+    width:80px;
+    overflow: hidden;
+    margin: auto;
+}
+.addc>div{
+    box-sizing: border-box;
+    width:25px;
+    height:25px;
+    border:1px solid #ddd;
+    text-align: center;
+    line-height: 25px;
+    background: #eee;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.addc>span{
+    display: inline-block;
+    width:30px;
+    height: 25px;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    text-align: center;
+    line-height: 25px;
+}
+/*购物列表*/
+table{
+    width:1020px;
+    border-collapse: collapse;
+}
+table thead{
+    color:#fff;
+    background: #c9c9c9;
+    height:36px;
+    line-height: 36px;
+}
+
+
+table tbody{
+    text-align: center;
+
+}
+table tbody tr.kongbai{
+    border:none;
+    height:10px;
+}
+table tbody tr{
+    height:90px;
+    border:1px solid #ddd;
+    position: relative;
+    top:30px;
+}
+th,td{
+    position: relative;
+}
+.check{
+    display: inline-block;
+    width:13px;
+    height:13px;
+    background: url(../img/check.png) no-repeat;
+    margin-right:10px;
+    position: absolute;
+    top:11.5px;
+    left:34px;
+    cursor: pointer;
+}
+.check.checked{
+    background: url(../img/checked.jpg) no-repeat;
+    background-size: 100% 100%  ;
+}
+td .check{
+    top:38.5px;
+}
+.td-img{
+    display: inline-block;
+    width:70px;
+    height:70px;
+    border:1px solid #ddd;
+    background: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+.chexiao{
+    display: inline-block;
+    width:13px;
+    height:13px;
+    background: url(../img/cx.png) no-repeat;
+}
+.delete{
+    display: inline-block;
+    width:13px;
+    height:13px;
+    background: url(../img/delete.png) no-repeat;
+}
+.delete-btn{
+    margin-top:10px;
+}
+
+.sp-name{
+    margin-left:30px;
+
+}
+.name-div{
+    text-align: left;
+}
+
+.guige{
+    margin-top:10px;
+}
+.chense{
+    color:#f3773d;
+    font-size:16px;
+}
+
+.sp{
+    width:400px;
+}
+th.qx{
+    width:200px;
+    cursor: pointer;
+}
+.jiesuan{
+    width:140px;
+    height:100%;
+    background: #6ab935;
+    cursor: pointer ;
+    color:#fff;
+    font-size: 16px;
+}
+/*结算*/
+.price{
+    color:#f3773d;
+    font-size: 18px;
+}
+.footer{
+    position: relative;
+    width:1020px;
+    margin:auto;
+    margin-top:28px;
+    height:54px;
+    border:1px solid #ddd;
+    text-align: center;
+    line-height: 54px;
+}
+.footer .check{
+    top:20px;
+}
+.footer>.left{
+    margin-left:60px;
+}
+.footer>.left span{
+    margin-right:30px;
+}
+.footer .left2{
+    float: right;
+    margin-left:50px;
+}
+.footer .left2>span{
+    margin-right:150px;
+}
+.jiesuan-txt{
+    font-size:14px;
+    color:#333;
+}
+.jiesuan-yunfei{
+    font-size:12px;
+    color:#8d8d8d;
+    margin-right:10px;
+}
+/*修改*/
+.chexiao-btn{
+    cursor: pointer;
+}
+.delete-btn{
+    cursor: pointer;
+}
+.qx-txt{
+    cursor: pointer;
+}

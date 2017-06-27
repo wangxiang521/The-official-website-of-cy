@@ -1,0 +1,106 @@
+.pro-list{
+    width:1120px;
+    height:900px;
+    margin-top:40px;
+}
+.pro-list li{
+    width:260px;
+    height:430px;
+    border:1px solid #ddd;
+    position: relative;
+    text-align: center;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+.remai{
+    position: absolute;
+    top:0px;
+    right:0px;
+    width: 70px;
+    height:30px;
+    background: #ff6600;
+    color:#fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+}
+.xinpin{
+    position: absolute;
+    top:0px;
+    right:0px;
+    width: 70px;
+    height:30px;
+    background: #1bce8d;
+    color:#fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+}
+.img{
+    height:300px;
+    text-align: center;
+    position: relative;
+}
+.img img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.pro-name{
+    color:#3e3e3e;
+    font-size:14px;
+}
+.ms{
+    font-size: 12px;
+    color:#898989;
+    margin:10px;
+}
+.pro-price{
+    font-size: 16px;
+    color:#6ab935;
+}
+.detail{
+    display: block;
+    width:80px;
+    height:28px;
+    border: 1px solid #ddd;
+    line-height: 26px;
+    margin: auto;
+    margin-top:10px;
+    border-radius: 4px;
+}
+.detail:hover{
+    background: #6ab935;
+    color: #fff;
+}
+.yeshu{
+    overflow: hidden;
+}
+.yeshu>ul{
+    text-align: center;
+    margin-top:45px;
+}
+.yeshu li{
+    display: inline-block;
+    width:50px;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-right:none;
+   cursor: pointer;
+}
+.yeshu li:last-child{
+    border: 1px solid #ddd;
+}
+
+.num.active,.num:hover{
+    background: #6ab935;
+    color: #ffffff;
+}
+.pro-name.active{
+    color:#ff6600;
+}

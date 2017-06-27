@@ -1,0 +1,402 @@
+
+.bread-nav{
+    margin-top:75px;
+    border:1px solid #ddd;
+}
+.bread-nav>div{
+    width:1200px;
+    margin:auto;
+    height:40px;
+    line-height: 40px;
+}
+.bread-nav a{
+    color:#898989;
+}
+.pro-container{
+    width:1200px;
+    margin:auto;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:45px;
+    position: relative;
+}
+/*展示图*/
+.pro-img{
+    width:550px;
+    overflow: hidden;
+
+}
+.pro-sp{
+    overflow: hidden;
+    position: relative;
+}
+.big-pro{
+    width:550px;
+    height:550px;
+    border: 1px solid #ddd;
+    text-align: center;
+    position: relative;
+    cursor:move;
+}
+.big-pro img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%) ;
+    transform:translate(-50%,-50%) ;
+    cursor: move;
+}
+.pro-list{
+    width:550px;
+    overflow: hidden;
+    margin-top:10px;
+}
+.pre,.next{
+    display: inline-block;
+    width:14px;
+    height:24px;
+    cursor: pointer;
+    margin-top:21.5px;
+}
+.pre{
+    background: url(../img/pre.png) no-repeat center;
+}
+.next{
+    background: url(../img/next.png);
+}
+.pro-list-ul{
+    float: left;
+
+}
+.pro-list-ul li{
+    display: inline-block;
+    width:64px;
+    height:64px;
+    border:2px solid #ddd;
+    margin-left:15px;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.8;
+}
+.pro-list-ul li img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%) ;
+    transform:translate(-50%,-50%) ;
+}
+.pro-list-ul li.active{
+    opacity: 1;
+    border:2px solid #6ab935;
+}
+.list-footer{
+    width:400px;
+    text-align: center;
+    height:35px;
+    line-height: 35px;
+    margin-top:10px;
+}
+.wx,.qq,.sc{
+    position: relative;
+    top:-2px;
+    cursor: pointer;
+}
+.wx{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    background: url(../img/wx.jpg) no-repeat;
+    background-size: 100% 100%;
+    vertical-align: middle;
+
+}
+.qq{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    background: url(../img/qq.jpg) no-repeat;
+    background-size: 100% 100%;
+
+    vertical-align: middle;
+
+
+}
+.sc{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    background: url(../img/sc.jpg) no-repeat;
+    background-size: 100% 100%;
+    margin-left:40px;
+    vertical-align: middle;
+
+}
+.list-footer.active span{
+    color:#fff;
+    background: #ff6600;
+}
+.list-footer span{
+    display: inline-block;
+    width:60px;
+    height:60px;
+    text-align: center;
+    line-height: 30px;
+}
+.list-footer.active .sc {
+    background: url(../img/star.png) no-repeat;
+    background-size: 100% 100%;
+}
+.pro-txt{
+    width:473px;
+    color:#898989;
+    margin-right:60px;
+}
+.pro-txt h1{
+    font-size: 25px;
+    color:#3e3e3e;
+    margin-bottom: 5px;
+}
+.green{
+    color:#6ab935;
+    font-size: 12px;
+    margin-right:15px;
+}
+.pro-txt .price{
+    width:100%;
+    height:60px;
+    background: #f2f2f2;
+    color:#ff6600;
+    line-height: 60px;
+    padding-left:18px;
+    font-size:35px;
+    margin:20px 0px;
+}
+.pro-txt .price span{
+    font-size:16px;
+}
+.guige,.yunfei{
+    overflow: hidden;
+    margin:20px 0px;
+}
+.yunfei{
+    padding-bottom: 20px;
+    border-bottom:1px dotted #ddd;
+}
+.guige>span,.yunfei>span{
+    margin-right:30px;
+}
+.guige>div,.yunfei>div{
+    width:74px;
+    height:22px;
+    border:1px solid #ddd;
+    text-align: center;
+    line-height: 20px;
+    margin-right:10px;
+}
+.yunfei>div.active{
+    border:1px solid #6ab935;
+}
+.num{
+    overflow: hidden;
+    line-height:30px;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom:20px;
+
+}
+.num>div{
+    width:30px;
+    height:30px;
+    line-height:30px;
+    text-align: center;
+    border:1px solid #ddd;
+    font-size:14px;
+    cursor: pointer;
+}
+.num>span:first-child{
+    margin-right:30px;
+}
+.num>.num-num{
+    width:40px;
+    height:30px;
+    line-height:30px;
+    text-align: center;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    color:#3e3e3e;
+}
+.num>p{
+    margin-left:30px;
+}
+.btn{
+    overflow: hidden;
+    cursor: pointer;
+}
+.btn>div{
+    width:205px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    color:#fff;
+    background:#ff6600;
+    border-radius: 5px;
+    margin-right:15px;
+    margin-top:30px;
+}
+.btn>div:first-child{
+    background:#6ab935;
+}
+.pro-header{
+    margin-top: 30px;
+    text-align: center;
+    border:1px solid #ddd;
+    height:53px;
+
+
+}
+.pro-ms{
+    padding-bottom:35px;
+    border:1px solid #ddd;
+    border-top:none;
+}
+.pro-header>div{
+    float:left;
+    width:132px;
+    height:52px;
+    line-height: 48px;
+    border-top:2px solid transparent;
+    border-right:1px solid #ddd;
+
+
+}
+.pro-pro{
+    display: none;
+}
+.pro-header>div.active{
+    border-top:2px solid #ff6600;
+    position: relative;
+    background: #fff;
+}
+.sp-img{
+    text-align: center;
+    margin-top:47px;
+}
+.sp-txt{
+    padding-left:110px;
+    font-size:13px;
+    color:#898989;
+    margin-top:50px;
+
+}
+.sp-txt li{
+    margin-top:15px;
+
+}
+.sp-txt li>span{
+    margin-right:20px;
+}
+.sp-txt .s1,.sp-txt .s2{
+    margin-right:20px;
+}
+/*评论*/
+.pro-pl{
+    width:1010px;
+    margin:auto;
+    margin-top:48px;
+    display: none;
+}
+.zt>span{
+    color:#3e3e3e;
+    font-size: 13px;
+    line-height:21px;
+    margin-right:20px;
+}
+.zt>b{
+    display: inline-block;
+    width:22px;
+    height:21px;
+    background: url(../img/star.png) no-repeat;
+    vertical-align: middle;
+}
+.pro-pl{
+    display: none;
+}
+.pro-pl-header>p{
+    color:#898989;
+    font-size: 12px;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.content{
+    padding-top:13px;
+    padding-bottom:23px;
+    border-top:1px solid #ddd;
+}
+.user{
+    overflow: hidden;
+}
+p.sj{
+    margin-top:35px;
+    margin-bottom:30px;
+    color:#af824d;
+}
+.head b{
+
+    display: inline-block;
+    width:16px;
+    height:16px;
+    background: url(../img/head.png);
+    margin-right:30px;
+
+}
+.pro-pl>div:last-child{
+    border-bottom: 1px solid #ddd;
+}
+.cs{
+    overflow: hidden;
+    padding-top:45px;
+
+}
+.detial{
+    overflow: hidden;
+    padding-top:45px;
+}
+.cs>div,.detial>div{
+    font-size:20px;
+    margin-left:250px;
+    margin-right:150px;
+}
+.cs>ul,.detial>ul{
+    margin-left:80px;
+}
+.pro-gg li{
+    margin-top:10px;
+}
+.pro-pro.active,.pro-pl.active,.pro-gg.active{
+    display: block;
+}
+/*放大镜*/
+.lage-big{
+    width:550px;
+    height:550px;
+    position: absolute;
+    top:0px;
+    left:560px;
+    border:1px solid #ddd;
+    overflow: hidden;
+}
+.lage-big img{
+    width:1000px;
+}
+.pro-gg{
+    display: none;
+}
+/*修改*/
+.guige>div.active{
+    border:1px solid #6ab935
+}
+.pro-header>div{
+    cursor: pointer;
+}
+.guige>div{
+    cursor: pointer;
+}

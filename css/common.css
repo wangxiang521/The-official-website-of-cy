@@ -1,0 +1,236 @@
+html,body,p,h1,h2,h3,h4,h5,h6,form,input,textarea,select,button,fieldset,legend,img,ul,ol,li,dl,dt,dd,th,td,pre,blockquote{margin:0;padding:0}
+html{height:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-font-smoothing:antialiased}
+body{color:#000;line-height: 26px;}
+body,button,input,select,textarea,h2,h3,h4,h5,h6{font:14px 'Hiragino Sans GB', 'Microsoft Yahei', '΢���ź�', '����', \5b8b\4f53, Tahoma, Arial;-webkit-font-smoothing: antialiased;}
+img,fieldset{border:0;vertical-align:middle}
+input{padding:0;margin:0;outline:none;}
+input{list-style: none;border:none}
+a{text-decoration:none;color:#4c4c4c;}
+a:hover{text-decoration:none;border:none}
+ul,li,ol{list-style:none}
+input[type='password']{
+    appearance:button;
+    -moz-appearance:button; /* Firefox */
+    -webkit-appearance:button; /* Safari �� Chrome */
+}
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+body{
+    font-size: 13px;
+    color: #3e3e3e;
+}
+/*头*/
+img{
+    cursor: pointer;
+}
+.nav-nav{
+    width:100%;
+    background: #fff;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index: 9999;
+    color:#4C4C4C;
+    opacity: 0.7;
+}
+.body-nav{
+    width:1100px;
+    margin:auto;
+    height:75px;
+    line-height: 75px;
+
+}
+.body-nav li>a{
+    width:119px;
+    height:75px;
+    display: block;
+}
+.body-nav li>a:hover{
+    color:#6ab935;
+
+}
+.body-nav .logo{
+    float: left;
+    width:187px;
+    height:31px;
+    background:url(../img/logo.png) no-repeat;
+    margin-top:22px;
+
+}
+.nav-list{
+    width:500px;
+    height:75px;
+    text-align: center;
+    float: left;
+    margin-left:90px;
+
+}
+.nav-list>li{
+    display: inline-block;
+    width:119px;
+    border-bottom: 1px solid transparent;
+}
+.nav-list>li.active{
+    color:#6ab935;
+    border-bottom:1px solid #6ab935 ;
+}
+.nav-list>li:hover{
+    color:#6ab935;
+    border-bottom:1px solid #6ab935 ;
+}
+.nav-right{
+    position: relative;
+    padding-left:41px;
+}
+.body-nav .nav-right>a{
+    margin-left:10px;
+}
+.gwc{
+    width:31px;
+    height:31px;
+    background: url(../img/gwc.png) no-repeat;
+    position: absolute;
+    top:50%;
+    left:0;
+    margin-top:-15.5px;
+    margin-left:0px;
+}
+.dl{
+    display: inline-block;
+    width:68px;
+    height:28px;
+    border:1px solid #6ab935;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 4px;
+}
+.dl:hover{
+    background:#6ab935;
+    color: #ffffff;
+}
+.zc{
+    display: inline-block;
+    width:68px;
+    height:28px;
+    text-align: center;
+    line-height: 28px;
+    border:1px solid #6ab935;
+    border-radius: 4px;
+}
+.zc:hover{
+    background: #6ab935;
+    color: #ffffff;
+}
+.gwc:hover{
+    background: url(../img/123.png) no-repeat;
+}
+/*脚*/
+footer{
+    height:306px;
+    padding: 30px;
+    margin-top:60px;
+    background: #f7f7f7;
+    text-align: center;
+    color:#999999;
+}
+footer>div{
+    margin-bottom: 20px;
+}
+footer h1{
+    font-size: 35px;
+    color:#6ab935;
+    margin-bottom:20px;
+}
+.footer-nav{
+    margin-bottom:20px;
+}
+.footer-nav li{
+    display: inline-block;
+    width:110px;
+    border-left:1px solid #ddd;
+
+}
+.footer-nav li a{
+    color:#999999;
+}
+.footer-nav li:first-child{
+    border-left:none;
+}
+.dizhi b{
+    display: inline-block;
+    width:12px;
+    height:17px;
+    background: url(../img/dz.png) no-repeat;
+    margin-left:30px;
+    margin-right:10px;
+    position: relative;
+    top:3px;
+}
+.heng1{
+    width:130px;
+    height:1px ;
+    border-bottom: 1px solid #ddd;
+    margin: auto;
+}
+.ga b{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    background: url(../img/ga.png) no-repeat;
+    margin-left:30px;
+    margin-right:10px;
+    position: relative;
+    top:3px;
+}
+.f-img>div{
+    display: inline-block;
+}
+.footer-nav li:hover a{
+    color:#f3773d;
+}
+.top{
+    min-width: 1200px;
+    margin-top:75px;
+}
+.top img{
+    width:100%;
+}
+.container1{
+    width:1200px;
+    margin:auto;
+    padding:50px;
+    padding-left:50px;
+    padding-right: 50px;
+}
+.milk-nav h1{
+    margin-bottom:20px;
+    font-size: 24px;
+}
+.milk{
+    margin-bottom:30px;
+}
+.milk-nav .heng1{
+    margin: 0px;
+    width:55px;
+    border-bottom: 3px solid #898989;
+    margin-bottom: 30px;
+}
+.nav-list>li>a{
+    font-size:15px;
+    width:119px;
+    height:75px;
+}
+.nav-list>li>a:hover{
+    color:#6ab935;
+
+}
